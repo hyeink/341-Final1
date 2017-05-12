@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<title>Contact plants.</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" type="text/css" href="css/styles.css">
-
+<title>Contact</title>
+<link href="css/dropdown.css" rel="stylesheet" type="text/css">
+<link href="css/paralax-contact.css" rel="stylesheet" type="text/css">
+<link href="css/form-email.css" rel="stylesheet" type="text/css">
 </head>
+
+<ul>
+  <li><a  href="index.html">Home</a></li>
+
+  <li><a href="about.html">About</a></li>
+  <li><a href="MART341-Project.html">MART341-Project</a></li>
+  <li><a class="active" href="contact.html">Contact</a></li>
+</ul>
+
 <body>
-  <div class="container">
-    <form action="/action_page.php">
+<div class="bgimg-1">
+        	<div class="caption"><span class="border" id="top">   Contact
+                 </span>
+          </div>
+		</div>
 
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		<div class="hero">
+		<h2 style="text-align:center;">Email:</h2>
 
-      <label for="email">Email</label>
-        <input type="text" id="email" name="Email" placeholder="Your Email..">
+			<p class="form">
+			<fieldset>
 
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				<textarea name="message" placeholder="Your message"></textarea>
 
-      <input type="submit" value="Submit">
 
-    </form>
-</body>
+				<form action="http://formspree.io/jh6929d@gmail.com" method="POST">
+				  <input name="email" type="email" placeholder="Your email">
+				</form>
+
+		   		<button type="submit" id="send">Send</button>
+			</fieldset>
+  			</p>
+
+  			</div>
+
+
+	</body>
 </html>
